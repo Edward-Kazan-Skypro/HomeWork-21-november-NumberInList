@@ -1,5 +1,12 @@
+
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Utilites utilites = new Utilites();
+        utilites.fillListBefore();
+        utilites.viewMapBefore();
+        utilites.transformList();
+        utilites.viewMapAfter();
     }
 }
